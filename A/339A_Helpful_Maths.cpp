@@ -17,7 +17,7 @@ int main() {
 	int n = num.length();
 	int count1 = 0, count2 = 0, count3 = 0;
 
-	//Iterate and Count Eah Number
+	//Iterate and Count Each Number
 	for (int i = 0; i < n; i = i + 2) {
 		if (num[i] == '1') {
 			count1++;
